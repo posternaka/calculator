@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 24px;
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: url('../img/1.jpg');
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 550px;
+    border: 1px solid #fff;
+    background: rgba(102, 102, 102, .2);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, .8);
+}
+
+.big {
+    vertical-align: middle;
+    height: 80px;
+    padding: 10px;
+    font-size: 28px;
+    background: rgba(102, 102, 102, .2);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.main-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+}
+
+.item:hover {
+    background: rgba(202, 199, 199, 0.5);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+
+.sbros {
+    color: rgb(73, 0, 0);
+    font-weight: 700;
+}
+
+.ravno {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.op {
+    background: rgba(163, 56, 56, .5);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
